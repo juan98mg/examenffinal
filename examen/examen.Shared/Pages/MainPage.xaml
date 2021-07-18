@@ -1,0 +1,30 @@
+﻿<Page
+    x:Class="examen.Pages.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:examen.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" HorizontalAlignment="Center">
+            <TextBlock Text="Sistema de votación" FontSize="40"  HorizontalAlignment="Center"/>
+            <TextBlock Text="Bienvenido" HorizontalAlignment="Center" Foreground="Red" FontSize="30"  x:Name="WelcomeTextBlock" />
+
+        </StackPanel>
+        <StackPanel Grid.Row="1">
+            <Frame x:Name="MyFrame" Grid.Row="1"/>
+        </StackPanel>
+        
+
+    </Grid>
+</Page>

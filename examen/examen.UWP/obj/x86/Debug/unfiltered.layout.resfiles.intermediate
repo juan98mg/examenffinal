@@ -1,0 +1,16 @@
+WinMetadata\Windows.winmd
+Assets\LockScreenLogo.scale-200.png
+Assets\SplashScreen.scale-200.png
+Assets\Square150x150Logo.scale-200.png
+Assets\Square44x44Logo.scale-200.png
+Assets\StoreLogo.png
+Assets\Wide310x150Logo.scale-200.png
+App.xbf
+Componentes\Loader.xbf
+examen.xr.xml
+MainPage.xbf
+Pages\CancelPage.xbf
+Pages\Login.xbf
+Pages\MainPage.xbf
+Pages\QuestionPage.xbf
+Properties\Default.rd.xml
